@@ -5,6 +5,18 @@ A stylish theme for [Ghost](http://ghost.org/) blogs, based on the [Solarized](h
 
 ![Screenshot](http://i.imgur.com/P94J69S.png)
 
+Solar Theme for Ghost
+=====================
+
+### A fork from [mattvh/solar-theme-ghost](https://github.com/mattvh/solar-theme-ghost) and some changes from [serenader2014/solar-theme-ghost](https://github.com/serenader2014/solar-theme-ghost)
+
+What's added ?
+--------
+
+- Improve stylesheet. Images in the mobile broswer will display well.
+- Using `background-image` instead of `<img />` tag. More flexible.
+- Fix for Ghost 1.0 Compatibility
+
 
 Features
 --------
