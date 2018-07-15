@@ -12,6 +12,7 @@
 
   <link href="{{asset 'css/style.css'}}" rel="stylesheet" />
   <link href="{{asset 'css/colors-dark.css'}}" rel="stylesheet" />
+  <link href="{{asset 'css/blueimp-gallery.min.css'}}" rel="stylesheet" />
 
   {{ghost_head}}
 
@@ -47,7 +48,6 @@
       <nav>
         <ul>
           <li><a href="{{@blog.url}}">Home</a></li>
-          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
           <li><a href="{{@blog.url}}/rss/">RSS Feed</a></li>
         </ul>
       </nav>
@@ -55,7 +55,9 @@
       {{#post}}
       {{#if author}}
         <div class="bio">
-          <img class="avatar" src="{{author.image}}" />
+          <div class="avatar-wrapper">
+            <span class="avatar" style="background-image:url({{author.image}})"></span>
+          </div>
           <h3>{{author.name}}</h3>
           <p>{{author.bio}}</p>
         </div>
@@ -88,7 +90,14 @@
   <script src="{{asset 'js/prism.js'}}"></script>
   <script>
     $(document).ready(function(){
+      var postContent = $('.post-content');
       $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+      if (postContent.length) {
+        postContent.find('img').on('click', function () {
+          var img = $(this).attr('src');
+          blueimp.Gallery([img]);
+        });
+      }
     });
   </script>
 
