@@ -22,8 +22,8 @@
 
 
 
-  {{#if @blog.cover}}
-    <div id="coverimg" style="background-image: url({{@blog.cover}})"></div>
+  {{#if @blog.cover_image}}
+    <div id="coverimg" style="background-image: url({{@blog.cover_image}})"></div>
   {{/if}}
 
 
@@ -56,7 +56,7 @@
       {{#if author}}
         <div class="bio">
           <div class="avatar-wrapper">
-            <span class="avatar" style="background-image:url({{author.image}})"></span>
+            <span class="avatar" style="background-image:url({{author.profile_image}})"></span>
           </div>
           <h3>{{author.name}}</h3>
           <p>{{author.bio}}</p>
