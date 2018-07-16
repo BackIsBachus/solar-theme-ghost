@@ -28,11 +28,15 @@ Features
 Installation
 ------------
 
-1. Clone the repository and upload the `solar` directory to your Ghost blog's `content/themes` folder.
+**These installation steps suppose you  are using Ghost > 1.0**
 
-2. Go to the Settings page of the Ghost backend and select `solar` from the Theme dropdown.
+1. Download the lasttes zipped [release](https://github.com/BackIsBachus/solar-theme-ghost/releases)
 
-3. There is no step 3.
+2. Go to the Admin part or your Ghost instance on the Design page
+
+3. Click on "Upload theme" and drop the zip on the upload window
+
+4. Either activate it right after the upload is finished or later on the Design pannel
 
 
 Customization
