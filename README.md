@@ -30,7 +30,7 @@ Installation
 
 **These installation steps suppose you  are using Ghost > 1.0**
 
-1. Download the lasttes zipped [release](https://github.com/BackIsBachus/solar-theme-ghost/releases)
+1. Download the lasttes zipped release
 
 2. Go to the Admin part or your Ghost instance on the Design page
 
