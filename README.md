@@ -23,6 +23,7 @@ Features
 
 * **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
 * **Responsive Design** — Solarized adapts to fit any screen size.
+* **Navigation** — Support for the Navigation menu of the Design pannel
 
 
 Installation
@@ -32,11 +33,13 @@ Installation
 
 1. Download the lasttes zipped release
 
-2. Go to the Admin part or your Ghost instance on the Design page
+2. Go to the Admin part or your Ghost instance on the Design pannel
 
 3. Click on "Upload theme" and drop the zip on the upload window
 
 4. Either activate it right after the upload is finished or later on the Design pannel
+
+5. (Optional) Setup you Navigation bar in the Design pannel with several pages (Home, About, RSS, etc)
 
 
 Customization
@@ -62,7 +65,7 @@ Valid language classes include `language-markup`, `language-css`, `language-java
 To-Do
 -----
 
-* The Jekyll version of Solar has linkblog support, while the Ghost one does not. This is because there isn't a finalized plugin API for Ghost yet, and there is no built-in linkblogging or post meta feature as of yet. This may change as Ghost's feature set is filled out more.
+* The Jekyll version of Solar has linkblog support, while the Ghost one does not. This is because there isn't a finalized plugin API for Ghost yet, and there is no built-in linkblogging or post meta feature as of yet. This may change as Ghost's feature set is filled out more. (_Not investigated this change, section inharited from fork_)
 
 
 License
