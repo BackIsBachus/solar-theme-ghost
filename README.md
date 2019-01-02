@@ -15,7 +15,8 @@ What's added ?
 
 - Improve stylesheet. Images in the mobile broswer will display well.
 - Using `background-image` instead of `<img />` tag. More flexible.
-- Fix for Ghost 1.0 Compatibility
+- Fix for Ghost 1.0 Compatibility (for theme version 2.x)
+- Fix for Ghost 2.0 Compatibility (for theme version 3.x)
 
 
 Features
@@ -25,13 +26,17 @@ Features
 * **Responsive Design** — Solarized adapts to fit any screen size.
 * **Navigation** — Support for the Navigation menu of the Design pannel
 
+Which version do I need?
+--------
+- For Ghost 1.x chose the theme version 2.x
+- For Ghost 2.x chose the theme version 3.x
 
 Installation
 ------------
 
 **These installation steps suppose you  are using Ghost > 1.0**
 
-1. Download the lasttes zipped release
+1. Download the lasttes zipped release relevent for your Ghost version
 
 2. Go to the Admin part or your Ghost instance on the Design pannel
 
