@@ -1,4 +1,27 @@
 {
-  "name": "Solar Theme for Ghost",
-  "version": "2.1.1"
+  "name": "solar-theme-for-host",
+  "description": "A solarized theme for the Ghost blogging platform with a Dark and a Light theme",
+  "repository": "github:BackIsBachus/solar-theme-ghost",
+  "bugs": "https://github.com/BackIsBachus/solar-theme-ghost/issues",
+  "author": {
+    "name": "BackIsBachus",
+    "email": "backisbachus@backisbachus.xyz"
+  },
+  "contributors": [
+    {
+      "name": "Matt Harzewski",
+      "url": "https://github.com/mattvh"
+    },
+    {
+      "name": "serenader",
+      "url": "https://github.com/serenader2014"
+    }
+  ],
+  "keywords": [
+  "ghost-theme",
+  "ghost",
+  "solar"
+],
+"license": "GPL-2.0",
+  "version": "3.0.0"
 }

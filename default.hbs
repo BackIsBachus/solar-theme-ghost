@@ -53,13 +53,13 @@
       </nav>
 
       {{#post}}
-      {{#if author}}
+      {{#if primary_author}}
         <div class="bio">
           <div class="avatar-wrapper">
-            <span class="avatar" style="background-image:url({{author.profile_image}})"></span>
+            <span class="avatar" style="background-image:url({{primary_author.profile_image}})"></span>
           </div>
-          <h3>{{author.name}}</h3>
-          <p>{{author.bio}}</p>
+          <h3>{{primary_author.name}}</h3>
+          <p>{{primary_author.bio}}</p>
         </div>
       {{/if}}
       {{/post}}
