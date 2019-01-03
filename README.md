@@ -16,8 +16,8 @@ What's added ?
 - Improve stylesheet. Images in the mobile broswer will display well.
 - Using `background-image` instead of `<img />` tag. More flexible.
 - Fix for Ghost 1.0 Compatibility (for theme version 2.x)
-- Fix for Ghost 2.0 Compatibility (for theme version 3.x)
-
+- Fix for Ghost 2.0 Compatibility (for theme version 3.x +)
+- Remove blueimp-gallery to only keep basic functionalities (for the version 4.x +)
 
 Features
 --------
