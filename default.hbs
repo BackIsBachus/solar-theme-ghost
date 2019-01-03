@@ -12,7 +12,6 @@
 
   <link href="{{asset 'css/style.css'}}" rel="stylesheet" />
   <link href="{{asset 'css/colors-dark.css'}}" rel="stylesheet" />
-  <link href="{{asset 'css/blueimp-gallery.min.css'}}" rel="stylesheet" />
 
   {{ghost_head}}
 
@@ -20,13 +19,9 @@
 
 <body class="{{body_class}}">
 
-
-
   {{#if @blog.cover_image}}
     <div id="coverimg" style="background-image: url({{@blog.cover_image}})"></div>
   {{/if}}
-
-
 
   <header id="header">
     {{#if @blog.logo}}
@@ -36,8 +31,6 @@
     {{/if}}
     <p>{{@blog.description}}</p>
   </header>
-
-
 
   <div id="page">
 
@@ -76,26 +69,10 @@
     <p class="copyright">Copyright &copy; {{date format='YYYY'}} {{@blog.title}}. Powered by <a href="http://ghost.org">Ghost</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a>. Modified by <a href ="https://github.com/serenader2014/solar-theme-ghost">serenader2014</a> and <a href="https://github.com/BackIsBachus/solar-theme-ghost">BackIsBachus</a>.</p>
   </footer>
 
-
-
   {{ghost_foot}}
 
   <script src="{{asset 'js/jquery.mobilemenu.min.js'}}"></script>
   <script src="{{asset 'js/prism.js'}}"></script>
-  <script>
-    $(document).ready(function(){
-      var postContent = $('.post-content');
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
-      if (postContent.length) {
-        postContent.find('img').on('click', function () {
-          var img = $(this).attr('src');
-          blueimp.Gallery([img]);
-        });
-      }
-    });
-  </script>
-
-
 
 </body>
 </html>
